@@ -1,0 +1,16 @@
+1) Edit config/database.yml
+2) rake db:create
+3) rake db:migrate
+4) edit if necessary config/initializers/office_config.rb
+5) start soffice headless mode
+soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard
+6) Login/register
+7) Upload asset and convert it into suitable format
+8) To upload various other supported document edit app/models/asset.rb
+   validates_attachment_content_type :attachment,
+                                    :content_type => ['application/vnd.ms-powerpoint',
+                                    'application/vnd.ms-excel',
+                                    'application/msword',
+                                     'application/vnd.oasis.opendocument.text',
+                                     'application/rtf',
+                                     'text/html']

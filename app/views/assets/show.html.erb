@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+<p>
+
+  <% form_tag(convert_document_asset_path(@asset),:method=>:get) do %>
+     Convert Into <%= select_tag :valid_format, options_for_select(@valid_formats)%>
+    <%= submit_tag "Convert" %>  
+  <% end  %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @asset.name %>
+</p>
+<br />
+<p>
+  <b>File Name</b>
+  <%=link_to @asset.attachment_file_name,@asset.attachment.url %>
+</p>
+<br />
+
+
+<div class="listing">
+  <table>
+    <tr>
+        <th>Name</th>
+        <th width="200">Download</th>
+        <th width="30"></th>
+    </tr>
+    <% @asset_documents.each do |asset_document| %>
+    <tr>
+      <td><%= asset_document.name %></td>
+      <td><%=link_to "Download",download_document_asset_path(@asset,:asset_document_id=>asset_document.id) %></td>
+      <td><%=link_to image_tag('delete_10.png'),delete_document_asset_path(@asset,:asset_document_id=>asset_document.id) %></td>
+    </tr>
+    <% end %>    
+  </table>
+
+</div>
+<%= link_to 'Edit', edit_asset_path(@asset) %> |
+<%= link_to 'Back', assets_path %>

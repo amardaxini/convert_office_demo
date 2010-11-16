@@ -1,0 +1,20 @@
+<h1>Listing assets</h1>
+<div class="listing">
+  <table>
+    <tr>
+      <th>Name</th>
+      <th width="30"></th>
+
+    </tr>
+
+    <% @assets.each do |asset| %>
+        <tr>
+          <td><%= link_to asset.name,asset %></td>
+          <td><%=  link_to image_tag("delete_10.png"), asset, :confirm => 'Are you sure?', :method => :delete %></td>
+        </tr>
+    <% end %>
+  </table>
+</div>
+<br />
+
+<%= link_to 'New Asset', new_asset_path %>
