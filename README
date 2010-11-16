@@ -1,3 +1,5 @@
+bundle install
+
 1) Edit config/database.yml
 2) rake db:create
 3) rake db:migrate

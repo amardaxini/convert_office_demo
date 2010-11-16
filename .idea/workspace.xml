@@ -42,19 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.03508772">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="12" selection-start="825" selection-end="825" vertical-scroll-proportion="0.877193">
+            <state line="37" column="12" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,8 +102,8 @@
         <option value="$PROJECT_DIR$/app/models/asset.rb" />
         <option value="$PROJECT_DIR$/app/models/asset_document.rb" />
         <option value="$PROJECT_DIR$/app/controllers/assets_controller.rb" />
-        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -489,16 +489,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+        <state line="37" column="12" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="12" selection-start="825" selection-end="825" vertical-scroll-proportion="0.877193">
+        <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.03508772">
           <folding />
         </state>
       </provider>
